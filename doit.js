@@ -28,7 +28,7 @@ Spritesmith.run({src: sprites.map(sprite => spriteFolder + sprite)}, function ha
   if(err){
     console.log(err);
   }
-  fs.writeFileSync('/spritesheet.png', result.image);
+  fs.writeFileSync('spritesheet.png', result.image);
 
   for (let key in result.coordinates){
     const image = key.replace(spriteFolder, ""); 
