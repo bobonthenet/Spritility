@@ -63,6 +63,6 @@ typings/
 
 # assets folder and default output file
 assets
-spritesheet.png
+spritesheet.*
 
 # End of https://www.gitignore.io/api/node
