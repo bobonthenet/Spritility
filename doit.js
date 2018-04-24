@@ -1,9 +1,12 @@
 #!/usr/bin/env node
 const Spritesmith = require('spritesmith');
 const fs = require('fs');
-const spriteFolder = './assets/';
+const path = require('path');
 
-let sprites = fs.readdirSync(spriteFolder).sort();
+const spritePath = path.basename(process.argv[2]) + '/';
+const outPath = path.basename(process.argv[3]) + '/';
+
+let sprites = fs.readdirSync(spritePath).sort();
 let spriteJson = {
   "frames": {},
   "meta": {
@@ -30,14 +33,14 @@ const frameObj = {
 	"pivot": {"x":0.5,"y":0.5}
 }
 
-Spritesmith.run({src: sprites.map(sprite => spriteFolder + sprite)}, function handleResult(err, result) {
+Spritesmith.run({src: sprites.map(sprite => spritePath + sprite)}, function handleResult(err, result) {
   if(err){
     console.log(err);
   }
-  fs.writeFileSync('spritesheet.png', result.image);
+  fs.writeFileSync(outPath + 'spritesheet.png', result.image);
 
   for (let key in result.coordinates){
-    const image = key.replace(spriteFolder, ""); 
+    const image = key.replace(spritePath, ""); 
     spriteJson.frames[image] = frameObj;
     spriteJson.frames[image].frame = {
         "x": result.coordinates[key].x, 
@@ -56,7 +59,7 @@ Spritesmith.run({src: sprites.map(sprite => spriteFolder + sprite)}, function ha
     "h" : result.properties.height
   };
   let json = JSON.stringify(spriteJson, null, 2);
-  fs.writeFileSync('spritesheet.json', json, 'utf8');
+  fs.writeFileSync(outPath + 'spritesheet.json', json, 'utf8');
 
   //anims
   var lastKey = '';
@@ -90,6 +93,6 @@ Spritesmith.run({src: sprites.map(sprite => spriteFolder + sprite)}, function ha
     
     lastKey = key;
     let json = JSON.stringify(animsJson, null, 2);
-    fs.writeFileSync('anims.json', json, 'utf8');
+    fs.writeFileSync(outPath + 'anims.json', json, 'utf8');
   });
 });

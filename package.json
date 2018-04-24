@@ -9,6 +9,7 @@
   "author": "BobbyB.",
   "license": "ISC",
   "dependencies": {
+    "path": "^0.12.7",
     "spritesmith": "^3.3.0"
   }
 }
