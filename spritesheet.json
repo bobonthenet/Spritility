@@ -1,0 +1,591 @@
+{
+  "frames": {
+    "adventurer_action1.png": {
+      "frame": {
+        "x": 400,
+        "y": 330,
+        "w": 80,
+        "h": 110
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 110
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 110
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "adventurer_action2.png": {
+      "frame": {
+        "x": 400,
+        "y": 330,
+        "w": 80,
+        "h": 110
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 110
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 110
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "adventurer_back.png": {
+      "frame": {
+        "x": 400,
+        "y": 330,
+        "w": 80,
+        "h": 110
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 110
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 110
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "adventurer_cheer1.png": {
+      "frame": {
+        "x": 400,
+        "y": 330,
+        "w": 80,
+        "h": 110
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 110
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 110
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "adventurer_cheer2.png": {
+      "frame": {
+        "x": 400,
+        "y": 330,
+        "w": 80,
+        "h": 110
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 110
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 110
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "adventurer_climb1.png": {
+      "frame": {
+        "x": 400,
+        "y": 330,
+        "w": 80,
+        "h": 110
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 110
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 110
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "adventurer_climb2.png": {
+      "frame": {
+        "x": 400,
+        "y": 330,
+        "w": 80,
+        "h": 110
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 110
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 110
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "adventurer_duck.png": {
+      "frame": {
+        "x": 400,
+        "y": 330,
+        "w": 80,
+        "h": 110
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 110
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 110
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "adventurer_fall.png": {
+      "frame": {
+        "x": 400,
+        "y": 330,
+        "w": 80,
+        "h": 110
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 110
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 110
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "adventurer_hang.png": {
+      "frame": {
+        "x": 400,
+        "y": 330,
+        "w": 80,
+        "h": 110
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 110
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 110
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "adventurer_hold1.png": {
+      "frame": {
+        "x": 400,
+        "y": 330,
+        "w": 80,
+        "h": 110
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 110
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 110
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "adventurer_hold2.png": {
+      "frame": {
+        "x": 400,
+        "y": 330,
+        "w": 80,
+        "h": 110
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 110
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 110
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "adventurer_hurt.png": {
+      "frame": {
+        "x": 400,
+        "y": 330,
+        "w": 80,
+        "h": 110
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 110
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 110
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "adventurer_idle.png": {
+      "frame": {
+        "x": 400,
+        "y": 330,
+        "w": 80,
+        "h": 110
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 110
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 110
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "adventurer_jump.png": {
+      "frame": {
+        "x": 400,
+        "y": 330,
+        "w": 80,
+        "h": 110
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 110
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 110
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "adventurer_kick.png": {
+      "frame": {
+        "x": 400,
+        "y": 330,
+        "w": 80,
+        "h": 110
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 110
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 110
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "adventurer_skid.png": {
+      "frame": {
+        "x": 400,
+        "y": 330,
+        "w": 80,
+        "h": 110
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 110
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 110
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "adventurer_slide.png": {
+      "frame": {
+        "x": 400,
+        "y": 330,
+        "w": 80,
+        "h": 110
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 110
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 110
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "adventurer_stand.png": {
+      "frame": {
+        "x": 400,
+        "y": 330,
+        "w": 80,
+        "h": 110
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 110
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 110
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "adventurer_swim1.png": {
+      "frame": {
+        "x": 400,
+        "y": 330,
+        "w": 80,
+        "h": 110
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 110
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 110
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "adventurer_swim2.png": {
+      "frame": {
+        "x": 400,
+        "y": 330,
+        "w": 80,
+        "h": 110
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 110
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 110
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "adventurer_talk.png": {
+      "frame": {
+        "x": 400,
+        "y": 330,
+        "w": 80,
+        "h": 110
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 110
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 110
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "adventurer_walk1.png": {
+      "frame": {
+        "x": 400,
+        "y": 330,
+        "w": 80,
+        "h": 110
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 110
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 110
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "adventurer_walk2.png": {
+      "frame": {
+        "x": 400,
+        "y": 330,
+        "w": 80,
+        "h": 110
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 110
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 110
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "doit",
+    "version": "0.1",
+    "image": "",
+    "format": "RGBA8888",
+    "size": {
+      "w": 480,
+      "h": 440
+    },
+    "scale": "1"
+  }
+}

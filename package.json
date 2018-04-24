@@ -1,14 +1,14 @@
 {
   "name": "spritesheet",
   "version": "1.0.0",
-  "description": "Make a Phaser friendly spritesheet w/ json",
+  "description": "Make a spritesheet w/ json atlas.",
   "main": "doit.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "BobbyB.",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "spritesmith": "^3.3.0"
   }
 }
