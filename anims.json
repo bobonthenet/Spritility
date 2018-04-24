@@ -1,0 +1,239 @@
+{
+  "anims": [
+    {
+      "key": "adventurer_action",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "spritesheet",
+          "frame": "adventurer_action1.png",
+          "duration": 0,
+          "visible": false
+        },
+        {
+          "key": "spritesheet",
+          "frame": "adventurer_action2.png",
+          "duration": 0,
+          "visible": false
+        }
+      ]
+    },
+    {
+      "key": "adventurer_back",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "spritesheet",
+          "frame": "adventurer_back.png",
+          "duration": 0,
+          "visible": false
+        }
+      ]
+    },
+    {
+      "key": "adventurer_cheer",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "spritesheet",
+          "frame": "adventurer_cheer1.png",
+          "duration": 0,
+          "visible": false
+        },
+        {
+          "key": "spritesheet",
+          "frame": "adventurer_cheer2.png",
+          "duration": 0,
+          "visible": false
+        }
+      ]
+    },
+    {
+      "key": "adventurer_climb",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "spritesheet",
+          "frame": "adventurer_climb1.png",
+          "duration": 0,
+          "visible": false
+        },
+        {
+          "key": "spritesheet",
+          "frame": "adventurer_climb2.png",
+          "duration": 0,
+          "visible": false
+        }
+      ]
+    },
+    {
+      "key": "adventurer_duck",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "spritesheet",
+          "frame": "adventurer_duck.png",
+          "duration": 0,
+          "visible": false
+        }
+      ]
+    },
+    {
+      "key": "adventurer_fall",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "spritesheet",
+          "frame": "adventurer_fall.png",
+          "duration": 0,
+          "visible": false
+        }
+      ]
+    },
+    {
+      "key": "adventurer_hang",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "spritesheet",
+          "frame": "adventurer_hang.png",
+          "duration": 0,
+          "visible": false
+        }
+      ]
+    },
+    {
+      "key": "adventurer_hold",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "spritesheet",
+          "frame": "adventurer_hold1.png",
+          "duration": 0,
+          "visible": false
+        },
+        {
+          "key": "spritesheet",
+          "frame": "adventurer_hold2.png",
+          "duration": 0,
+          "visible": false
+        }
+      ]
+    },
+    {
+      "key": "adventurer_hurt",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "spritesheet",
+          "frame": "adventurer_hurt.png",
+          "duration": 0,
+          "visible": false
+        }
+      ]
+    },
+    {
+      "key": "adventurer_idle",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "spritesheet",
+          "frame": "adventurer_idle.png",
+          "duration": 0,
+          "visible": false
+        }
+      ]
+    },
+    {
+      "key": "adventurer_jump",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "spritesheet",
+          "frame": "adventurer_jump.png",
+          "duration": 0,
+          "visible": false
+        }
+      ]
+    },
+    {
+      "key": "adventurer_kick",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "spritesheet",
+          "frame": "adventurer_kick.png",
+          "duration": 0,
+          "visible": false
+        }
+      ]
+    },
+    {
+      "key": "adventurer_skid",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "spritesheet",
+          "frame": "adventurer_skid.png",
+          "duration": 0,
+          "visible": false
+        }
+      ]
+    },
+    {
+      "key": "adventurer_slide",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "spritesheet",
+          "frame": "adventurer_slide.png",
+          "duration": 0,
+          "visible": false
+        }
+      ]
+    },
+    {
+      "key": "adventurer_stand",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "spritesheet",
+          "frame": "adventurer_stand.png",
+          "duration": 0,
+          "visible": false
+        }
+      ]
+    },
+    {
+      "key": "adventurer_swim",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "spritesheet",
+          "frame": "adventurer_swim1.png",
+          "duration": 0,
+          "visible": false
+        },
+        {
+          "key": "spritesheet",
+          "frame": "adventurer_swim2.png",
+          "duration": 0,
+          "visible": false
+        }
+      ]
+    },
+    {
+      "key": "adventurer_talk",
+      "type": "frame",
+      "frames": [
+        {
+          "key": "spritesheet",
+          "frame": "adventurer_talk.png",
+          "duration": 0,
+          "visible": false
+        }
+      ]
+    }
+  ],
+  "globalTimeScale": 1
+}

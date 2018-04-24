@@ -1,8 +1,9 @@
+#!/usr/bin/env node
 const Spritesmith = require('spritesmith');
 const fs = require('fs');
 const spriteFolder = './assets/';
 
-let sprites = fs.readdirSync(spriteFolder);
+let sprites = fs.readdirSync(spriteFolder).sort();
 let spriteJson = {
   "frames": {},
   "meta": {
@@ -13,6 +14,11 @@ let spriteJson = {
     "size": {},
     "scale": "1"
   }
+};
+
+let animsJson = {
+  "anims": [],
+  "globalTimeScale": 1
 };
 
 const frameObj = {
@@ -51,4 +57,39 @@ Spritesmith.run({src: sprites.map(sprite => spriteFolder + sprite)}, function ha
   };
   let json = JSON.stringify(spriteJson, null, 2);
   fs.writeFileSync('spritesheet.json', json, 'utf8');
+
+  //anims
+  var lastKey = '';
+  var animObj = {};
+  let reg = new RegExp("[0-9]", "g");
+  sprites.forEach(function(sprite){
+    // console.log(sprite);
+    let key = sprite.replace(reg, '').substring(0, sprite.indexOf('.')).replace('.', '');
+    // console.log(lastKey);
+    if (key !== lastKey) {
+      if(Object.getOwnPropertyNames(animObj).length > 0){
+        animsJson.anims.push(animObj);
+      }
+      animObj = {};
+      animObj.key = key;
+      animObj.type = 'frame';
+      animObj.frames = [{
+        "key": "spritesheet",
+        "frame": sprite,
+        "duration": 0,
+        "visible": false
+      }]
+    } else {
+      animObj.frames.push({
+        "key": "spritesheet",
+        "frame": sprite,
+        "duration": 0,
+        "visible": false
+      })
+    }
+    
+    lastKey = key;
+    let json = JSON.stringify(animsJson, null, 2);
+    fs.writeFileSync('anims.json', json, 'utf8');
+  });
 });
