@@ -24,24 +24,21 @@ let animsJson = {
   "globalTimeScale": 1
 };
 
-const frameObj = {
-  "frame": {},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0},
-	"sourceSize": {},
-	"pivot": {"x":0.5,"y":0.5}
-}
-
 Spritesmith.run({src: sprites.map(sprite => spritePath + sprite)}, function handleResult(err, result) {
   if(err){
     console.log(err);
   }
   fs.writeFileSync(outPath + 'spritesheet.png', result.image);
-
   for (let key in result.coordinates){
-    const image = key.replace(spritePath, ""); 
-    spriteJson.frames[image] = frameObj;
+    let image = key.replace(spritePath, ""); 
+    spriteJson.frames[image] = {
+      "frame": {},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x":0,"y":0},
+      "sourceSize": {},
+      "pivot": {"x":0.5,"y":0.5}
+    };
     spriteJson.frames[image].frame = {
         "x": result.coordinates[key].x, 
         "y": result.coordinates[key].y, 
@@ -53,7 +50,7 @@ Spritesmith.run({src: sprites.map(sprite => spritePath + sprite)}, function hand
     spriteJson.frames[image].sourceSize.w = result.coordinates[key].width;
     spriteJson.frames[image].sourceSize.h = result.coordinates[key].height;
   };
-
+  
   spriteJson.meta.size = {
     "w" : result.properties.width,
     "h" : result.properties.height
@@ -66,11 +63,18 @@ Spritesmith.run({src: sprites.map(sprite => spritePath + sprite)}, function hand
   var animObj = {};
   let reg = new RegExp("[0-9]", "g");
   sprites.forEach(function(sprite){
-    // console.log(sprite);
     let key = sprite.replace(reg, '').substring(0, sprite.indexOf('.')).replace('.', '');
-    // console.log(lastKey);
     if (key !== lastKey) {
       if(Object.getOwnPropertyNames(animObj).length > 0){
+        animObj.frameRate = 24,
+        animObj.duration = 1.5,
+        animObj.skipMissedFrames = true,
+        animObj.delay = 0,
+        animObj.repeat = -1,
+        animObj.repeatDelay = 0,
+        animObj.yoyo = false,
+        animObj.showOnStart = false,
+        animObj.hideOnComplete = false
         animsJson.anims.push(animObj);
       }
       animObj = {};
