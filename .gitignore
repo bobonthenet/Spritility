@@ -64,5 +64,6 @@ typings/
 # assets folder and default output file
 assets
 spritesheet.*
+anims.json
 
 # End of https://www.gitignore.io/api/node
