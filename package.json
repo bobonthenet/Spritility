@@ -1,8 +1,10 @@
 {
-  "name": "spritesheet",
+  "name": "spritility",
   "version": "1.0.0",
-  "description": "Make a spritesheet w/ json atlas.",
-  "main": "doit.js",
+  "description": "Make a spritesheet w/ json atlas and anims for Phaser.",
+  "main": "spritility.js",
+  "preferGlobal": true,
+  "bin": "./spritility.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
