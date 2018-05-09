@@ -1,6 +1,6 @@
 {
   "name": "spritility",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Make a spritesheet w/ json atlas and anims for Phaser.",
   "main": "spritility.js",
   "preferGlobal": true,

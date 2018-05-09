@@ -10,7 +10,7 @@ let sprites = fs.readdirSync(spritePath).sort();
 let spriteJson = {
   "frames": {},
   "meta": {
-    "app": "doit",
+    "app": "spritility",
     "version": "0.1",
     "image": "",
     "format": "RGBA8888",
@@ -96,7 +96,17 @@ Spritesmith.run({src: sprites.map(sprite => spritePath + sprite)}, function hand
     }
     
     lastKey = key;
-    let json = JSON.stringify(animsJson, null, 2);
-    fs.writeFileSync(outPath + 'anims.json', json, 'utf8');
   });
+  animObj.frameRate = 24,
+  animObj.duration = 1.5,
+  animObj.skipMissedFrames = true,
+  animObj.delay = 0,
+  animObj.repeat = -1,
+  animObj.repeatDelay = 0,
+  animObj.yoyo = false,
+  animObj.showOnStart = false,
+  animObj.hideOnComplete = false
+  animsJson.anims.push(animObj);
+  let json2 = JSON.stringify(animsJson, null, 2);
+  fs.writeFileSync(outPath + 'anims.json', json2, 'utf8');
 });
